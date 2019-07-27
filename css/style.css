@@ -126,8 +126,10 @@ a img.aligncenter { display: block; margin-left: auto; margin-right: auto; }
 .btn-primary { background-color: transparent; border: 2px solid #52c75a; color: #52c75a; }
 .btn-primary:hover { background-color: #52c75a; border: 2px solid #52c75a; color: #fff; }
 .btn-primary.focus, .btn-primary:focus { background-color: #52c75a; border: 2px solid #52c75a; color: #fff; }
-.btn-default { background-color: transparent; border: 2px solid #555555; color: #555555; }
-.btn-default:hover { background-color: #555555; border: 2px solid #555555; color: #fff; }
+/* .btn-default { background-color: transparent; border: 2px solid #555555; color: #555555; } */
+.btn-default { background-color: #555555; border: 2px solid #555555; color: #fff; }
+
+.btn-default:hover { background-color:   #202020; border: 2px solid #202020; color: #fff; }
 .btn-default.focus, .btn-default:focus { background-color: #555555; border: 2px solid #555555; color: #fff; }
 .btn-lg { padding: 15px 36px; font-size: 15px; }
 .btn-sm { padding: 8px 18px; font-size: 12px; }
@@ -450,6 +452,12 @@ img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border-
 .profile { bottom: -20px; position: absolute; }
 .profile img { border-radius: 50%; margin-bottom: 30px; position: relative; width: 5em; height: auto; }
 .back-pic { background-color: #ebebeb; height: 548px; width: 385px; border-radius: 50%; transform: rotate(-140deg); }
+
+
+
+.profile2 { bottom: -20px; position: absolute; padding-bottom: 17.5%}
+.profile2 img { margin-bottom: 30px; position: relative; width: auto; height: auto; }
+
 
 /*-----------------------------------
 7. before after gallery
